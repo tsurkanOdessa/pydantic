@@ -112,5 +112,3 @@ for i, user in enumerate(users, 1):
           f" {i}:"
           f" result {result}:"
           f" {user['name']}")
-
-
