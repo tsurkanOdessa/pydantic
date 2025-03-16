@@ -108,7 +108,7 @@ users = json.loads(json_users)
 
 for i, user in enumerate(users, 1):
     result = validate_and_serialize_user(json.dumps(user))
-    print(f"\n🔹 Проверка пользователя"
+    print(f"\n🔹 Проверка пользователя" 
           f" {i}:"
           f" result {result}:"
           f" {user['name']}")
